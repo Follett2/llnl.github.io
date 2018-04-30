@@ -7,12 +7,12 @@ layout: default
 {: .page-header}
 
 *This page contains information meant for LLNL Employees with instructions for
-how to mark their source code projects. It is not intended to serve as legal
-advice*
+how to mark their open source code projects. It is not intended to serve as legal
+advice.*
 
 ### Required Content
 
-All LLNL software must contain the following markings:
+All LLNL software released under an open source software license must contain the following markings:
 
 #### 1. README file
 
@@ -54,7 +54,8 @@ source code file with the following content:
 ```
 Copyright (c) 2018, Lawrence Livermore National Security, LLC
 
-Use of this source code is governed by the LICENSE file at: <URL>
+Use of this source code is without any warranty (as described in DISCLAIMER file) and is governed by the LICENSE file at: <URL>  
+
 ```
 
 The `<URL>` should be the path to the license file at the root of the Git
@@ -67,10 +68,10 @@ to: `.c`, `.cpp`, `.py`, `.java`, etc
 
 #### Open Source licenses
 
-The following are the official texts for various open source licenses approved
+The following are the official texts for various open source licenses commonly approved
 by LLNL. Remember that any open source release (and license) must be reviewed
 and approved via the Information Management system, found at:
-<https://im-int.llnl.gov/policy/software>
+<https://im-int.llnl.gov/policy/software>. The source code must be released only under the license specifically approved for your project.
 
 - [MIT License](/about/licenses/mit.txt)
 - [BSD-3 License](/about/licenses/bsd-3.txt)
